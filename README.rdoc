@@ -1,0 +1,44 @@
+== Rubylight
+
+This is a simple implementation of Lokesh Dhakar's Lightbox 2,( http://lokeshdhakar.com/projects/lightbox2/ ) current with version 2.51. 
+Its purpose is to simply make setup and use of Lightbox 2 easier for Rails users.
+
+= Installation and Setup
+
+Add Ruby to your gem file:
+
+++gem RubyLight++
+
+and install it using bundler:
+
+++$ bundle install++
+
+Require the modified Lightbox css file in your application.css file:
+
+++ *= require lightbox ++
+
+Require the modified Lightbox javascript file in your application.js file:
+
+++ //= require lightbox ++
+
+= Use
+
+++ lightbox_tag thumb, pic, title=nil, collection=nil, html_options = {} ++
+
+thumb is the url of the smaller pic (the one you want displayed on the page)
+pic is the url of the larger pic (the one you want displayed after clicking)
+title is the caption displayed below the pic after clicking
+collection is which collection the pic belongs to. Pictures in the same collection can be cycled to.
+html_options is any further html options for the link
+
+= Author
+
+* J. Paul Wetstein[https://rubygems.org/profiles/60085] (mailto:jeep.wetstein@gmail.com)
+
+= License
+
+Licensed under the Creative Commons Attribution 2.5 License - http://creativecommons.org/licenses/by/2.5/
+
+* Free for use in both personal and commercial projects.
+* Attribution requires leaving author name, author email link, and the license info intact.
+
