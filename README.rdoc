@@ -7,19 +7,19 @@ Its purpose is to simply make setup and use of Lightbox 2 easier for Rails users
 
 Add Ruby to your gem file:
 
-++gem RubyLight++
++ gem RubyLight +
 
 and install it using bundler:
 
-++$ bundle install++
++ $ bundle install +
 
 Require the modified Lightbox css file in your application.css file:
 
-++ *= require lightbox ++
++ *= require lightbox +
 
 Require the modified Lightbox javascript file in your application.js file:
 
-++ //= require lightbox ++
++ //= require lightbox +
 
 = Use
 
@@ -33,7 +33,7 @@ html_options is any further html options for the link
 
 = Author
 
-* J. Paul Wetstein[https://rubygems.org/profiles/60085] (mailto:jeep.wetstein@gmail.com)
+* {J Paul Wetstein}[https://rubygems.org/profiles/60085] (mailto:jeep.wetstein@gmail.com)
 
 = License
 
