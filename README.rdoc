@@ -7,23 +7,23 @@ Its purpose is to simply make setup and use of Lightbox 2 easier for Rails users
 
 Add Ruby to your gem file:
 
-+ gem RubyLight +
+<tt> gem RubyLight </tt>
 
 and install it using bundler:
 
-+ $ bundle install +
+<tt> $ bundle install </tt>
 
 Require the modified Lightbox css file in your application.css file:
 
-+ *= require lightbox +
+<tt> *= require lightbox </tt>
 
 Require the modified Lightbox javascript file in your application.js file:
 
-+ //= require lightbox +
+<tt> //= require lightbox </tt>
 
 = Use
 
-++ lightbox_tag thumb, pic, title=nil, collection=nil, html_options = {} ++
+<tt> lightbox_tag thumb, pic, title=nil, collection=nil, html_options = {} </tt>
 
 thumb is the url of the smaller pic (the one you want displayed on the page)
 pic is the url of the larger pic (the one you want displayed after clicking)
@@ -33,7 +33,7 @@ html_options is any further html options for the link
 
 = Author
 
-* {J Paul Wetstein}[https://rubygems.org/profiles/60085] (mailto:jeep.wetstein@gmail.com)
+{J Paul Wetstein}[https://rubygems.org/profiles/60085] (mailto:jeep.wetstein@gmail.com)
 
 = License
 
