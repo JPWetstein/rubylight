@@ -25,11 +25,11 @@ Require the modified Lightbox javascript file in your application.js file:
 
 <tt> lightbox_tag thumb, pic, title=nil, collection=nil, html_options = {} </tt>
 
- * <b>thumb</b> is the url of the smaller pic (the one you want displayed on the page)
- * <b>pic</b> is the url of the larger pic (the one you want displayed after clicking)
- * <b>title</b> is the caption displayed below the pic after clicking
- * <b>collection</b> is which collection the pic belongs to. Pictures in the same collection can be cycled to.
- * <b>html_options</b> is any further html options for the link
+<b>thumb</b> is the url of the smaller pic (the one you want displayed on the page)
+<b>pic</b> is the url of the larger pic (the one you want displayed after clicking)
+<b>title</b> is the caption displayed below the pic after clicking
+<b>collection</b> is which collection the pic belongs to. Pictures in the same collection can be cycled to.
+<b>html_options</b> is any further html options for the link
 
 = Author
 
