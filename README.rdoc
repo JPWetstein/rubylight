@@ -23,7 +23,7 @@ Require the modified Lightbox javascript file in your application.js file:
 
 = Use
 
-<tt> lightbox_tag thumb, pic, title=nil, collection=nil, html_options = {} </tt>
+<tt> lightbox_tag(thumb, pic, title=nil, collection=nil, html_options = {}) </tt>
 
 <b>thumb</b> is the url of the smaller pic (the one you want displayed on the page)
 
