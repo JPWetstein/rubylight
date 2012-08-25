@@ -7,7 +7,7 @@ Its purpose is to simply make setup and use of Lightbox 2 easier for Rails users
 
 Add Ruby to your gem file:
 
-<tt> gem RubyLight </tt>
+<tt> gem 'rubylight' </tt>
 
 and install it using bundler:
 
