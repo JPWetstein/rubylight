@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.homepage    = "http://rubygems.org/gems/rubylight"
   s.summary     = "A simple implementation of Lightbox 2"
   s.description = "A simple implementation of Lightbox 2 for Ruby on Rails"
-  s.date        = '2012-06-03'
+  s.date        = '2012-08-25'
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
