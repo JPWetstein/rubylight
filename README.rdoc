@@ -31,7 +31,7 @@ Require the modified Lightbox javascript file in your application.js file:
 
 <b>title</b> is the caption displayed below the pic after clicking
 
-<b>collection</b> is which collection the pic belongs to. Pictures in the same collection can be cycled to.
+<b>collection</b> is which collection the pic belongs to. Pictures in the same collection can be cycled.
 
 <b>html_options</b> is any further html options for the link
 
