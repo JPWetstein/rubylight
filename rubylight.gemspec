@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.description = "A simple implementation of Lightbox 2 for Ruby on Rails"
   s.date        = '2012-08-25'
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "> 3.1.3"
